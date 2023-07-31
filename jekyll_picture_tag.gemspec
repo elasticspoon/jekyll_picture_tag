@@ -37,8 +37,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'objective_elements', '~> 1.1'
   # rainbow is used to colorize terminal output.
   spec.add_runtime_dependency 'rainbow', '~> 3.0'
-  # ruby-vips interfaces with libvips.
-  spec.add_runtime_dependency 'ruby-vips', '~> 2.1.4'
+  # ruby-vips interfaces with libvips
 
   # libvips handles all image processing operations.
   spec.requirements << 'libvips'
